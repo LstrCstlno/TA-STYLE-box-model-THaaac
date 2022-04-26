@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style.css*/
+
+body{
+    margin: 40px;
+}
+
+h1
+{
+    font-size:30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    padding: 40px 0px;
+}
+
+
+.box1 {
+    background-color: brown; 
+    width: 150px;
+    height: 100px;
+    border: 5px solid black;
+}
+
+.box2{
+    margin: 60px 0px;
+}
+
+.box2a{
+    background-color: brown; 
+    width: 150px;
+    height: 100px;
+    border: 5px double black;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.box2b{
+    background-color: brown; 
+    width: 150px;
+    height: 100px;
+    border: 5px dashed black;
+    display: inline-block;
+}
+
+.box3a{
+    background-color: brown; 
+    width: 150px;
+    height: 100px;
+    border: 5px dotted black;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.box3b{
+    background-color: brown; 
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+}
+
+.box4{
+    background-color: red; 
+    width: 300px;
+    height: 350px;
+    border: 5px dotted black;
+    margin: 60px 0px ;
+    border-top: 20px solid blue;
+    border-right: 20px solid gray;
+    border-bottom: 20px solid yellow;
+    border-left: 20px solid green;
+    padding: 20px;
+    outline: 30px solid purple;
+    color: white;
+    font-size:17px;
+    font-weight: 200;
+    line-height: 17px;
+
+}
+
+
+
