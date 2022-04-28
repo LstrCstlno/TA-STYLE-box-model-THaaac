@@ -141,7 +141,7 @@ h3{
 .box2{
     border: 1px solid #cccccc;
     display: inline-block;
-    width: 610px;
+    width: 600px;
     margin-left: 400px;
     margin-bottom: 60px;
 }
@@ -190,7 +190,9 @@ h3{
 }
 
 
-
+.nospace{
+    font-size: 0px;
+    }
 
 
 
