@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style.css*/
+
+body{
+    margin: 60px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+hr{
+    text-align: center;
+    width: 50%;
+    border-top: 1px dashed #cccccc;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+    
+.mombox{
+    width: 220px;
+    height: 220px;
+    background-color: #dafad4;
+    margin:  50px 600px;
+    border: 5px solid black;
+    outline: 20px solid #e3797a;
+    box-shadow: inset 0 0 0 20px #add8e6;
+}
+
+.label{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-bottom: 40px;
+    
+}
+
+.dot1{
+    background-color:#dafad4;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2{
+    background-color:#add8e6;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+        
+.dot3{
+    background-color: black;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot4{
+    background-color: #e3797a;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.space{
+    padding-right: 20px;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.ex2{
+    margin-top: 40px;
+}
+
+.box2{
+    border: 1px solid #cccccc;
+    display: inline-block;
+    width: 600px;
+    margin-left: 400px;
+    margin-bottom: 60px;
+}
+.exbox2a{
+    width: 180px;
+    height:100px;
+    background-color: #cccccc;
+    display: inline-block;
+    margin: 10px;
+}
+
+.exbox2b{
+    width: 180px;
+    height:100px;
+    background-color: #cccccc;
+    display: inline-block;
+    margin: 10px;
+}
+
+.exbox2c{
+    width: 180px;
+    height: 100px;
+    background-color: #cccccc;
+    display: inline-block;
+    margin: 10px; 
+}
+
+.ex3{
+    padding: 30px 0px;
+}
+
+.exbox3a{
+    border: 1px solid black;
+}
+
+.exbox3b{
+    border: 1px solid black;
+}
+
+.exbox3c{
+    border: 1px solid black;
+}
+
+.box4{
+    width: auto;
+}
+
+
+.nospace{
+    font-size: 0px;
+    }
+
+
+
