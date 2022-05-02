@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*my styles*/
+
+
+header{
+    background-color:#2e3142;
+    
+}
+
+.mainh{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.hsec{
+    margin: 0px 140px;
+}
+
+.nav{
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-bottom: 180px;
+}
+
+span{
+    padding: 10px;
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 45px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+.parah{
+    color: #858897;
+    padding-top: 40px;
+    padding-bottom: 180px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    border-style: solid;
+    color: #858897;
+}
+
+.main1{
+    background-color: #4c5c97;
+    color: whitesmoke;
+}
+
+.div1{
+    margin: 40px 140px;
+    display: inline-block;
+}
+
+.bodyh{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.dp{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding:20px 0px;
+}
+
+p{
+    color: #c3d0eb;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.more{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.main2{
+    background-color: #45568e;
+    color: whitesmoke;
+}
+
+.main3{
+    background-color: #3f4e85;
+    color: whitesmoke;
+}
+
+footer{
+    background-color:#2e3142;
+}
+
+.pf{
+    margin: 40px 140px;
+    display: inline-block;
+    color: #737685;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
